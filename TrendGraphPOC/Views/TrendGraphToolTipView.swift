@@ -43,7 +43,8 @@ struct TrendGraphToolTipView: View {
     }
 }
 
-
-#Preview {
-    TrendGraphToolTipView(date: .constant(Date().addingTimeInterval(15400)), glucose: .constant(120))
+struct TrendGraphToolTipView_Previews: PreviewProvider {
+    static var previews: some View {
+        TrendGraphToolTipView(date: .constant(Date().addingTimeInterval(15400)), glucose: .constant(120))
+    }
 }

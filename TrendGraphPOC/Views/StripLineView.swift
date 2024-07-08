@@ -21,6 +21,8 @@ struct StripLineView: View {
     }
 }
 
-#Preview {
-    StripLineView(position: CGFloat(100))
+struct StripLineView_Previews: PreviewProvider {
+    static var previews: some View {
+        StripLineView(position: CGFloat(100))
+    }
 }

@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11385BE32C3B23C00008F353 /* TrendGraphToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BE22C3B23C00008F353 /* TrendGraphToolTipView.swift */; };
+		11385BE52C3B251C0008F353 /* Date+TrendGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BE42C3B251C0008F353 /* Date+TrendGraphView.swift */; };
+		11385BE72C3B25630008F353 /* GlucoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BE62C3B25630008F353 /* GlucoseModel.swift */; };
+		11385BE92C3B25D30008F353 /* TrendGraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BE82C3B25D30008F353 /* TrendGraphViewModel.swift */; };
+		11385BEB2C3B26390008F353 /* StripLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BEA2C3B26390008F353 /* StripLineView.swift */; };
+		11385BED2C3B270B0008F353 /* View+TrendGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11385BEC2C3B270B0008F353 /* View+TrendGraphView.swift */; };
 		11CBC80D2C342D58005B10CD /* TrendGraphPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBC80C2C342D58005B10CD /* TrendGraphPOCApp.swift */; };
-		11CBC80F2C342D58005B10CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBC80E2C342D58005B10CD /* ContentView.swift */; };
+		11CBC80F2C342D58005B10CD /* TrendGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBC80E2C342D58005B10CD /* TrendGraphView.swift */; };
 		11CBC8112C342D59005B10CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CBC8102C342D59005B10CD /* Assets.xcassets */; };
 		11CBC8152C342D59005B10CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CBC8142C342D59005B10CD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11385BE22C3B23C00008F353 /* TrendGraphToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendGraphToolTipView.swift; sourceTree = "<group>"; };
+		11385BE42C3B251C0008F353 /* Date+TrendGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+TrendGraphView.swift"; sourceTree = "<group>"; };
+		11385BE62C3B25630008F353 /* GlucoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseModel.swift; sourceTree = "<group>"; };
+		11385BE82C3B25D30008F353 /* TrendGraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendGraphViewModel.swift; sourceTree = "<group>"; };
+		11385BEA2C3B26390008F353 /* StripLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripLineView.swift; sourceTree = "<group>"; };
+		11385BEC2C3B270B0008F353 /* View+TrendGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+TrendGraphView.swift"; sourceTree = "<group>"; };
 		11CBC8092C342D58005B10CD /* TrendGraphPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendGraphPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CBC80C2C342D58005B10CD /* TrendGraphPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendGraphPOCApp.swift; sourceTree = "<group>"; };
-		11CBC80E2C342D58005B10CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11CBC80E2C342D58005B10CD /* TrendGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendGraphView.swift; sourceTree = "<group>"; };
 		11CBC8102C342D59005B10CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CBC8122C342D59005B10CD /* TrendGraphPOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrendGraphPOC.entitlements; sourceTree = "<group>"; };
 		11CBC8142C342D59005B10CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +45,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11385BEE2C3B274B0008F353 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11CBC80C2C342D58005B10CD /* TrendGraphPOCApp.swift */,
+				11CBC80E2C342D58005B10CD /* TrendGraphView.swift */,
+				11385BEA2C3B26390008F353 /* StripLineView.swift */,
+				11385BE22C3B23C00008F353 /* TrendGraphToolTipView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11385BEF2C3B27520008F353 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11385BE82C3B25D30008F353 /* TrendGraphViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11385BF02C3B275D0008F353 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11385BF12C3B27830008F353 /* Models */,
+				11385BE42C3B251C0008F353 /* Date+TrendGraphView.swift */,
+				11385BEC2C3B270B0008F353 /* View+TrendGraphView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11385BF12C3B27830008F353 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11385BE62C3B25630008F353 /* GlucoseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		11CBC8002C342D58005B10CD = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +101,9 @@
 		11CBC80B2C342D58005B10CD /* TrendGraphPOC */ = {
 			isa = PBXGroup;
 			children = (
-				11CBC80C2C342D58005B10CD /* TrendGraphPOCApp.swift */,
-				11CBC80E2C342D58005B10CD /* ContentView.swift */,
+				11385BF02C3B275D0008F353 /* Extensions */,
+				11385BEF2C3B27520008F353 /* ViewModel */,
+				11385BEE2C3B274B0008F353 /* Views */,
 				11CBC8102C342D59005B10CD /* Assets.xcassets */,
 				11CBC8122C342D59005B10CD /* TrendGraphPOC.entitlements */,
 				11CBC8132C342D59005B10CD /* Preview Content */,
@@ -139,8 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CBC80F2C342D58005B10CD /* ContentView.swift in Sources */,
+				11385BE32C3B23C00008F353 /* TrendGraphToolTipView.swift in Sources */,
+				11CBC80F2C342D58005B10CD /* TrendGraphView.swift in Sources */,
+				11385BE72C3B25630008F353 /* GlucoseModel.swift in Sources */,
+				11385BE92C3B25D30008F353 /* TrendGraphViewModel.swift in Sources */,
+				11385BED2C3B270B0008F353 /* View+TrendGraphView.swift in Sources */,
+				11385BEB2C3B26390008F353 /* StripLineView.swift in Sources */,
 				11CBC80D2C342D58005B10CD /* TrendGraphPOCApp.swift in Sources */,
+				11385BE52C3B251C0008F353 /* Date+TrendGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
