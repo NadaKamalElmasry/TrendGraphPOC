@@ -11,7 +11,7 @@ import SwiftUI
 struct TrendGraphPOCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrendGraphView()
         }
     }
 }
